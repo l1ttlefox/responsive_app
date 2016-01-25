@@ -1,0 +1,251 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.header_personal{
+	border-top:1px solid #ffc080;
+	
+}
+.ch_bot{
+	padding:0px;
+}
+.search_block{
+	padding:15px 15%;
+}
+.logo_wr{
+	padding:25px 15px 0px 15px;
+}
+.logo{
+	text-align:center;
+	position:static;
+}
+.header_collapsed{
+	display:none;
+}
+.open_header .header_collapsed{
+	display:block;
+}
+.header_menu_but{
+	display:block;
+	top: 35%;
+}
+.footer_colomn{
+	width:100%;
+	
+}
+.fc_title{
+	background:url(/images/lm_arrow_close.png) no-repeat right 11px;
+}
+.footer_colomn:first-child .fc_title{
+	background:none;
+}
+.fc_links{
+	display:none;
+}
+
+.fc_open .fc_links{
+	display:block;
+}
+.fc_open .fc_title{
+	background:url(/images/lm_arrow_open.png) no-repeat right 11px;
+}
+.footer_bot_right{
+	text-align:center;
+}
+.lsm_mobile{
+	display:block;
+}
+.lsm_full{
+	display:none;
+}
+/*================================*/
+#slider{
+	margin-top:10px;
+}
+/*================================*/
+.category_view .col-md-4:nth-child(1),
+.category_view .col-md-4:nth-child(2),
+.category_view .col-md-4:nth-child(3){
+	padding:0;
+}
+.category_products{
+	display:none;
+}
+.open_category .category_products{
+	display:block;
+}
+.cat_title{
+	width:100%;
+	text-align:left;
+}
+.category_1 div{
+	background-image:url(/images/cat_down_1.png);
+	background-repeat:no-repeat;
+	background-position:right 0px; 
+}
+.category_2 div{
+	background-image:url(/images/cat_down_2.png);
+	background-repeat:no-repeat;
+	background-position:right 0px; 
+}
+.category_3 div{
+	background-image:url(/images/cat_down_3.png);
+	background-repeat:no-repeat;
+	background-position:right 0px; 
+}
+.open_category .category_1 div,
+.open_category .category_2 div,
+.open_category .category_3 div{
+	background-image:url(/images/cat_up.png);
+	color:#fff!important;
+}
+.open_category .category_1{
+	background-color:#ff8000;
+}
+.open_category .category_2{
+	background-color:#14cc93;
+}
+.open_category .category_3{
+	background-color:#231f20;
+}
+/*==================================*/
+.detail_product_wr .col-md-4{
+	padding-right:0px;
+}
+.pd_price .col-md-6:nth-child(2){
+	text-align:left;
+}
+.action_select{
+	width:50%;
+}
+.add_button_wr{
+	text-align:center;
+}
+/*==========detail_add_slider======*/
+.add_slide .col-md-6:first-child{
+	padding-right:15px;
+	padding-left:15px;
+}
+.add_slide .col-md-6:nth-child(2){
+	padding-left:15px;
+	padding-right:15px;
+}
+.add_slider_title{
+	padding-left:15px;
+}
+#pd_add_slider .bx-next{
+	right:15px;
+}
+#pd_add_slider .bx-prev{
+	right:40px;
+}
+.seller_info_top .col-md-2{
+	text-align:center;
+}
+.seller_info_top .col-md-10{
+	padding:15px 0px 15px 0px;
+}
+/*===========detail_question==========*/
+.dq_content{
+	display: none;
+}
+.detail_question{
+	padding:0px 15px;
+}
+/*.dq_open .dq_content{
+	display:block;
+}
+.dq_top div{
+	background:url(/images/lm_arrow_close.png) no-repeat right 14px;
+}
+.dq_open .dq_top div{
+	background:url(/images/lm_arrow_open.png) no-repeat right 14px;
+}*/
+
+/*=====inner_pages===============*/
+
+.im_item,.im_item:nth-child(7){
+	width:100%;
+	border-bottom:1px solid #8ae6c9;
+}
+
+/*===============basket================*/
+.basket_cond_wr,.basket_top{
+	display:none;
+}
+.basket_content{
+	padding:20px 20px 0px 20px;
+}
+.basket_name_wr .pd_marker{
+	position:absolute;
+	top:0;
+	right:0;
+	
+}
+.basket_name{
+	padding-right:40px;
+}
+
+.basket_material{
+	padding-top:5px;
+}
+.basket_price{
+	padding-top:0;
+	font-size:20px;
+}
+.basket_remove{
+   display:none;
+}
+.basket_remove_mobile{
+	display: block;
+}
+.basket_bottom .basket_price{
+	font-size:20px;
+}
+.shipping_select,.shipping_title,
+.shipping_price,.total_cost{
+	display:block;
+	float:none;
+	text-align:center;
+}
+.shipping_select{
+	width:100%;
+}
+.basket_button{
+	font-size:17px;
+}
+/*==================messages===========*/
+.user_header_info .col-md-6:nth-child(2){
+	text-align:left;
+}
+.msg_user_content_wr{
+	padding-left:0px;
+}
+.msg_print_area .col-md-2{
+	padding-left:0px;
+}
+/*=============personal==============*/
+.personal_label{
+	padding-top:0px;
+}
+.input_description{
+	padding-left:0px;
+	padding-top:5px;
+}
+.col-xs-9.input_description{
+	padding-left:10px;
+}
+/*======filter====*/
+
+.filter_content{
+	padding-top:20px;
+}
+.filter_content .col-md-6 .product_wr:first-child{
+	padding-left:0;
+}
+
+
+
+
+
+/*==============thw_end====================*/	
+ }

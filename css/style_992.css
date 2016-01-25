@@ -1,0 +1,44 @@
+/* Large desktop */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+.header_personal{
+	border-top:1px solid #ffc080;
+}
+/*================================*/
+.pd_price .col-md-6:nth-child(2){
+	text-align:right;
+}
+.pd_price {
+    margin: 30px 0;
+}
+/*==========detail_add_slider======*/
+.
+.add_slide .col-md-6:first-child{
+	padding-right:5px;
+	padding-left:1px;
+}
+.add_slide .col-md-6:nth-child(2){
+	padding-left:5px;
+	padding-right:1px;
+}
+/*=====inner_pages===============*/
+
+.im_item{
+	width:138px;
+}
+.im_item:nth-child(7){
+	width:139px;
+}
+/*===============basket================*/
+.basket_price{
+	font-size:22px;
+	padding-top: 20px;
+}
+.shipping_select{
+	width:195px;
+	padding:0px 7px;
+	background:#ffffff;
+	border:1px solid #fff;
+}
+/*==============thw_end====================*/
+}
