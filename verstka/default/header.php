@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -126,28 +127,3 @@
 						</div>
 					</div>
 				</div><!--end_of_header_collapsed----->
-								
-			</div><!--end_of_header----->
-			<div class="nav_wr">
-				<div class="container">
-					<div class="row">
-						<nav id="newnavigator" class="breadcrmb" 			xmlns:v="http://rdf.data-vocabulary.org/#">
-							<span typeof="v:Breadcrumb">
-							<a class="color_bread first_link" rel="v:url" property="v:title" 
-							href="#">Principala
-								</a>
-							</span>
-										 
-							<span typeof="v:Breadcrumb">
-							<a  class="color_bread" rel="v:url" property="v:title" 
-							href="#">Despre noi</a>
-							</span>
-							<span typeof="v:Breadcrumb">
-								<span class="brcrlink">
-									Product detail
-								</span>
-							</span>	  
-						</nav>
-					</div>
-				</div>		
-			 </div><!--end_of_nav_wr----->
